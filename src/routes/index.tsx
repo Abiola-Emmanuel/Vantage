@@ -1,24 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Navbar from "@/components/site/Navbar.jsx";
+import Hero from "@/components/site/Hero.jsx";
+import Stats from "@/components/site/Stats.jsx";
+import Domains from "@/components/site/Domains.jsx";
+import LabSetupCallout from "@/components/site/LabSetupCallout.jsx";
+import ToolsStrip from "@/components/site/ToolsStrip.jsx";
+import FAQAccordion from "@/components/site/FAQAccordion.jsx";
+import CTASection from "@/components/site/CTASection.jsx";
+import Footer from "@/components/site/Footer.jsx";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
+const title = "Redteam Ref — Offensive & Defensive Security Reference";
+const description =
+  "A hands-on reference library of OSINT, malware analysis, digital forensics and social engineering tools, documented from real lab work.";
+
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="min-h-screen bg-background font-sans antialiased">
+      <Navbar />
+      <Hero />
+      <Stats />
+      <Domains />
+      <LabSetupCallout />
+      <ToolsStrip />
+      <FAQAccordion />
+      <CTASection />
+      <Footer />
+    </main>
   );
 }
