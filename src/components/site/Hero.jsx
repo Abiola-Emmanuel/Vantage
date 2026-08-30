@@ -46,7 +46,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.24 }}
           className="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center"
         >
-          <ButtonLink href="#domains">Explore Domains</ButtonLink>
+          <ButtonLink href="/login?mode=signup">Get Started</ButtonLink>
           <ButtonLink variant="outline" href="#lab-setup">
             Lab Setup Guide
           </ButtonLink>
