@@ -1,3 +1,5 @@
+"use client";
+
 import { Server, Disc3, TriangleAlert } from "lucide-react";
 import { Eyebrow, Reveal, ButtonLink } from "./ui.jsx";
 

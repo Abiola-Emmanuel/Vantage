@@ -1,3 +1,5 @@
+"use client";
+
 import { Search, Bug, Fingerprint, VenetianMask } from "lucide-react";
 import { Eyebrow, Reveal, Blob } from "./ui.jsx";
 import DomainCard from "./DomainCard.jsx";

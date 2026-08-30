@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "motion/react";
 import { Search, Bug, Fingerprint, VenetianMask, Terminal } from "lucide-react";
 import { ButtonLink, PillTag, Blob } from "./ui.jsx";

@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import { useInView } from "motion/react";
 import { Reveal } from "./ui.jsx";

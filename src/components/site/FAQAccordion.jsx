@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -50,7 +52,10 @@ export default function FAQAccordion() {
                     className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
                   >
                     <span className="text-sm font-medium text-foreground">{f.q}</span>
-                    <motion.span animate={{ rotate: isOpen ? 180 : 0 }} transition={{ duration: 0.25 }}>
+                    <motion.span
+                      animate={{ rotate: isOpen ? 180 : 0 }}
+                      transition={{ duration: 0.25 }}
+                    >
                       <ChevronDown className="h-4 w-4 text-muted-foreground" />
                     </motion.span>
                   </button>
