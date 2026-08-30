@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Menu, X, ShieldHalf } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import Image from "next/image";
 
 const links = [
   { label: "Home", href: "#top" },
