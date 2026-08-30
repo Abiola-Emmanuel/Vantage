@@ -8,26 +8,18 @@ const inter = Inter({
   display: "swap",
 });
 
-const title = "Redteam Ref — Offensive & Defensive Security Reference";
+const title = "Vantage — Offensive & Defensive Security Reference";
 const description =
   "A hands-on reference library of OSINT, malware analysis, digital forensics and social engineering tools, documented from real lab work.";
 
 export const metadata = {
   title,
   description,
-  authors: [{ name: "Lovable" }],
+  authors: [{ name: "Abiola Emmanuel" }],
   icons: {
     icon: "/favicon.png",
   },
-  openGraph: {
-    title,
-    description,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@Lovable",
-  },
+ 
 };
 
 export default function RootLayout({ children }) {

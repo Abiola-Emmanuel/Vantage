@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary">
                 <ShieldHalf className="h-4 w-4 text-ink" />
               </span>
-              <span className="text-sm font-semibold text-foreground">Redteam Ref</span>
+              <span className="text-sm font-semibold text-foreground">Vantage</span>
             </div>
             <p className="mt-4 max-w-[15rem] text-xs leading-relaxed text-muted-foreground">
               A personal reference for security tooling — documented from hands-on lab work.
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-center justify-between gap-4 rounded-2xl bg-mint-soft px-6 py-4 sm:flex-row">
-          <p className="text-xs text-muted-foreground">© 2026 Redteam Ref</p>
+          <p className="text-xs text-muted-foreground">© 2026 Vantage</p>
           <div className="flex gap-2">
             {[Github, Globe, Mail].map((Icon, i) => (
               <a

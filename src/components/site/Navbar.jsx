@@ -23,7 +23,7 @@ export default function Navbar() {
             <ShieldHalf className="h-4 w-4 text-ink" />
             {/* <Image src="/favicon.png" alt="Vantage" width={16} height={16} /> */}
           </span>
-          <span className="text-sm font-semibold text-ink-foreground">Redteam Ref</span>
+          <span className="text-sm font-semibold text-ink-foreground">Vantage</span>
         </a>
 
         <div className="hidden items-center gap-7 md:flex">

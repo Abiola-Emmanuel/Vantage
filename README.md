@@ -2,11 +2,11 @@
 
 Lovable Prompt — Homepage
 
-Copy everything below into Lovable. Swap "Redteam Ref" for your actual project name before pasting.
+Copy everything below into Lovable.
 
 Prompt
 
-Build a homepage for "Redteam Ref" — a personal cybersecurity reference platform documenting tools and techniques across four domains: OSINT, Malware Analysis, Digital Forensics, and Social Engineering. It also includes a guide for setting up a virtual lab environment.
+Build a homepage for "Vantage" — a personal cybersecurity reference platform documenting tools and techniques across four domains: OSINT, Malware Analysis, Digital Forensics, and Social Engineering. It also includes a guide for setting up a virtual lab environment.
 
 Overall style: Clean, modern SaaS-analytics aesthetic. Light theme, generous whitespace, soft rounded corners (16–24px radius), subtle drop shadows on cards, minimal borders. Should feel like a polished developer-docs product (think Linear, Stripe Docs, Mintlify) crossed with an analytics dashboard landing page — NOT a hacker/terminal aesthetic. Professional and approachable, not edgy.
 
@@ -114,7 +114,7 @@ Section 8 — Final CTA band
 
 Full-width soft mint rounded panel, centered content:
 
-Eyebrow: "REDTEAM REF"
+Eyebrow: "VANTAGE"
 
 Heading: "Start exploring the domains"
 
