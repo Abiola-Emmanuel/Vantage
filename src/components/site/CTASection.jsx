@@ -12,7 +12,7 @@ export default function CTASection() {
         <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
           Pick a domain, follow the lab notes, and run the tools the way they were actually tested.
         </p>
-        <ButtonLink href="#domains" className="mt-7">
+        <ButtonLink href="/login?mode=signup" className="mt-7">
           Get Started
         </ButtonLink>
       </Reveal>

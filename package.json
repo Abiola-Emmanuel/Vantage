@@ -11,6 +11,8 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.4",
     "@tailwindcss/postcss": "^4.2.1",
     "lucide-react": "^0.575.0",
     "motion": "^13.1.1",
