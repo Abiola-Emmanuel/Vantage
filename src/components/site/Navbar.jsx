@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-5xl items-center justify-between rounded-full bg-ink px-4 py-2.5 shadow-lift">
         <a href="#top" className="flex items-center gap-2 pl-1">
           <span className="flex h-7 w-7 items-center justify-center rounded-full bg-primary">
-          {/* Add black version of the logo */}
+            {/* Add black version of the logo */}
             <ShieldHalf className="h-4 w-4 text-ink" />
             {/* <Image src="/favicon.png" alt="Vantage" width={16} height={16} /> */}
           </span>
